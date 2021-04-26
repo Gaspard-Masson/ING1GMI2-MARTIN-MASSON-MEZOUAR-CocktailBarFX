@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="707.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.interfaceclientController">
+   <children>
+      <TableView fx:id="tableListeBoissons" layoutX="36.0" layoutY="68.0" prefHeight="211.0" prefWidth="376.0">
+         <columns>
+            <TableColumn fx:id="colNom" prefWidth="75.0" text="nom" />
+            <TableColumn fx:id="colContenance" prefWidth="75.0" text="contenance" />
+            <TableColumn fx:id="colPrix" prefWidth="75.0" text="prix" />
+            <TableColumn fx:id="colStock" prefWidth="75.0" text="stock" />
+            <TableColumn fx:id="colDegre" prefWidth="75.0" text="degre" />
+         </columns>
+      </TableView>
+      <Label fx:id="labelListeBoissons" layoutX="133.0" layoutY="27.0" prefHeight="18.0" prefWidth="427.0" text="Liste des boissons &amp; disponibilité" textAlignment="CENTER" textFill="#2075dd" />
+      <Button fx:id="boutonQuitter" layoutX="573.0" layoutY="643.0" mnemonicParsing="false" onAction="#Quitter" text="Quit" />
+      <Label layoutX="258.0" layoutY="305.0" prefHeight="18.0" prefWidth="335.0" text="Commander boisson" textAlignment="CENTER" textFill="#2075dd" />
+      <Button fx:id="boutonAjouter" layoutX="381.0" layoutY="453.0" mnemonicParsing="false" onAction="#Ajouter" prefHeight="54.0" prefWidth="158.0" text="Ajouter à la commande" />
+      <Button fx:id="retourmenu" layoutX="343.0" layoutY="643.0" mnemonicParsing="false" onAction="#retourmenu" prefHeight="26.0" prefWidth="202.0" text="Retour au menu" />
+      <Button layoutX="210.0" layoutY="467.0" mnemonicParsing="false" onAction="#Passercommande" prefHeight="26.0" prefWidth="138.0" text="Passer commande" />
+      <Label layoutX="217.0" layoutY="344.0" prefHeight="18.0" prefWidth="382.0" text="Boisson(s) Ajoutée(s) :" />
+      <Label fx:id="boissonselected" layoutX="88.0" layoutY="370.0" prefHeight="70.0" prefWidth="438.0" text="  " />
+      <ChoiceBox fx:id="choiceboxCocktails" layoutX="460.0" layoutY="108.0" prefWidth="150.0" />
+      <Button fx:id="buttonCreerCocktail" layoutX="36.0" layoutY="618.0" mnemonicParsing="false" onAction="#gotoCocktail" prefHeight="54.0" prefWidth="267.0" text="Creer un cocktail" />
+   </children>
+</AnchorPane>

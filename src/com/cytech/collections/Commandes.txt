@@ -1,0 +1,5 @@
+Commande n°1 : JusdOrange, VodkaOrange, pour un total de : 11.3€
+Commande n°2 : JusdOrange, pour un total de : 2.5€
+Commande n°3 : JusdePomme, Vodka, Vodka, pour un total de : 13.0€
+Commande n°4 : JusdePomme, JusdOrange, pour un total de : 4.5€
+Commande n°1 : gintonic, CYtechCocktail, VodkaAnanas, pour un total de : 258.72€

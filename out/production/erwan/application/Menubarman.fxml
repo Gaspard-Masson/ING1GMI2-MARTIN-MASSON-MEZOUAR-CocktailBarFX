@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane" prefHeight="399.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuBarmanController">
+   <children>
+      <AnchorPane layoutX="-184.0" layoutY="-187.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="Commande" layoutX="78.0" layoutY="76.0" mnemonicParsing="false" onAction="#Gocommande" prefHeight="44.0" prefWidth="220.0" text="Gérer commande" />
+      <Button fx:id="Boisson" layoutX="78.0" layoutY="169.0" mnemonicParsing="false" onAction="#Goboisson" prefHeight="44.0" prefWidth="220.0" text="Gérer Boisson" />
+      <Label layoutX="156.0" layoutY="30.0" text="Menu">
+         <font>
+            <Font name="Bookman Old Style Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="132.0" layoutY="251.0" mnemonicParsing="false" onAction="#deconnect" prefHeight="26.0" prefWidth="112.0" text="Se deconnecter" />
+   </children>
+</AnchorPane>

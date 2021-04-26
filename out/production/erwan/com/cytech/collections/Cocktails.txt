@@ -1,0 +1,8 @@
+Cocktail JusdOrange Vodka VodkaOrange 0.5
+Cocktail JusdAnanas Vodka VodkaAnanas 0.5
+Cocktail JusdePomme Vodka VodkaPomme 0.5
+Cocktail Whisky Vodka Alcoolic 0.5
+Cocktail JusdOrange JusdAnanas JusdePomme Fruité 0.5
+Cocktail JusdeFraise SiropGrenadine Vodka redvodka 0.5
+Cocktail SiropMenthe Gin gintonic 0.5
+Cocktail JusdePomme SiropGrenadine Gin Vodka CYtechCocktail 0.5

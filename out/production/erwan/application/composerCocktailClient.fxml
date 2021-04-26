@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="591.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.composerCocktailClientController">
+   <children>
+      <Button fx:id="buttonRetour" layoutX="649.0" layoutY="13.0" mnemonicParsing="false" onAction="#Retour" prefHeight="46.0" prefWidth="82.0" text="retour" />
+      <TableView fx:id="tableviewStockManage" layoutX="24.0" layoutY="36.0" prefHeight="200.0" prefWidth="422.0">
+         <columns>
+            <TableColumn fx:id="colNom" prefWidth="132.0000057220459" text="nom" />
+            <TableColumn fx:id="colContenance" prefWidth="112.79998779296875" text="contenance (en L)" />
+            <TableColumn fx:id="colPrix" prefWidth="69.5999755859375" text="prix (en €)" />
+            <TableColumn fx:id="colDegre" prefWidth="45.60003662109375" text="degré" />
+            <TableColumn fx:id="colStock" prefWidth="58.4000244140625" text="stock" />
+         </columns>
+      </TableView>
+      <Label layoutX="143.0" layoutY="275.0" prefHeight="18.0" prefWidth="251.0" text="Boisson(s) Ajoutée(s) :" />
+      <Label fx:id="boissonselected" layoutX="14.0" layoutY="301.0" prefHeight="54.0" prefWidth="405.0" text="  " />
+      <Button fx:id="boutonAjouter" layoutX="126.0" layoutY="404.0" mnemonicParsing="false" onAction="#Ajouter" prefHeight="54.0" prefWidth="158.0" text="Ajouter au Cocktail" />
+      <Button fx:id="buttonComposer" layoutX="335.0" layoutY="404.0" mnemonicParsing="false" onAction="#composer" prefHeight="54.0" prefWidth="186.0" text="Composer le Cocktail" />
+      <TextField fx:id="textfieldNameCocktail" layoutX="447.0" layoutY="289.0" />
+      <Label layoutX="453.0" layoutY="256.0" prefHeight="18.0" prefWidth="266.0" text="nom du cocktail :" />
+      <Label fx:id="lbErrorNomCocktail" layoutX="447.0" layoutY="320.0" textFill="RED" />
+   </children>
+</AnchorPane>
